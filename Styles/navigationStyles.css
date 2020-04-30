@@ -1,0 +1,12 @@
+/*  General Navigation Styles  */
+.navigation {
+	display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navigation > .nav-btn {
+	text-decoration: none;
+    color: white;
+    font-size: 24px;
+}

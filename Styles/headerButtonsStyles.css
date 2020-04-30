@@ -1,0 +1,22 @@
+/*  Header Button Styles  */
+.right-column button {
+	height: 50px;
+    color: white;
+    font-size: 23px;
+    background-color: #4d4d4d;
+    border: none;
+    border-radius: 2px;
+}
+
+.right-column > .header-btn i {
+	color: green;
+}
+
+.right-column > .search-btn {
+    background-color: black;
+}
+
+.right-column > .search-btn i {
+    color: #4d4d4d;
+    font-size: 40px;
+}

@@ -1,0 +1,49 @@
+/*  General Header Styles  */
+.header {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+	background-color: black;
+    color: white;
+    height: 80px;
+}
+
+/*  Left Column Styles  */
+.left-column img {
+	height: 70px;
+    width: 100%;
+}
+
+/*  Center-Left Column Styles*/
+.center-left-column {
+	padding-top: 10px;
+}
+
+.center-left-column > .explore {
+	color: yellow;
+    font-size: 18px;
+    align-items: center;
+}
+
+
+/*  Center-Right Column Styles  */
+.center-right-column {
+    padding-left: 25px;
+    padding-top: 32px;
+}
+
+.center-right-column button {
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+    border: none;
+}
+
+/*  Right Column Styles */
+.right-column {
+	display: grid;
+    justify-content: center;
+    grid-template-columns: 1.5fr 1fr 1.5fr 1.5fr;
+    padding-top: 15px; 
+    grid-gap: 10px;
+}
