@@ -13,9 +13,19 @@
 
 
 
+.right-side {
+	padding-top: 25px;
+}
 
+.right-side > .main-right-title {
+	padding-left: 10px;
+}
+
+.right-side > .main-right-title b {
+	color: aqua;
+}
 
 .right-side img {
-    height: 400px;
-    width: 500px;
+    height: 420px;
+    width: 550px;
 }

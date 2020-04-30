@@ -1,1 +1,18 @@
 /*  For CodePen Section Styles  */
+.for-codePen-section {
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -webkit-box-shadow: -16px -67px 88px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -16px -67px 88px 12px rgba(0, 0, 0, 0.75);
+    box-shadow: -16px -67px 88px 12px rgba(0, 0, 0, 0.75);
+}
+
+.for-codePen-section > .for-codePen-button {
+    background-color: #4d4d4d;
+    border: 1px solid lightgray;
+    color: white;
+    font-size: 20px;
+}
+
