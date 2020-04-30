@@ -20,7 +20,7 @@
 }
 
 .center-left-column > .explore {
-	color: yellow;
+	color: #d1ae00;
     font-size: 18px;
     align-items: center;
 }
@@ -34,7 +34,7 @@
 
 .center-right-column button {
     background-color: black;
-    color: gray;
+    color: #4b4b4b;
     font-size: 20px;
     border: none;
 }

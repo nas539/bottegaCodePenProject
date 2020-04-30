@@ -14,5 +14,10 @@
     border: 1px solid lightgray;
     color: white;
     font-size: 20px;
+    font-weight: 300;
 }
 
+/*
+.for-codePen-section > .for-codePen-button b {
+   font-weight: 900;
+}*/

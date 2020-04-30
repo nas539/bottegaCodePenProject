@@ -4,7 +4,7 @@
     justify-content: center;
     grid-template-columns: 2fr 1fr;
     grid-gap: 5px;
-    height: 450px;
+    height: 500px;
     width: 100%;
     background: rgb(29, 27, 23);
     background: linear-gradient(270deg, rgba(29, 27, 23, 1) 29%, rgba(43, 40, 46, 1) 48%, rgba(77, 77, 77, 1) 100%);
@@ -12,7 +12,7 @@
 
 /*  Left Side Styles  */
 .left-side {
-    padding: 40px 10px 10px 40px;
+    padding: 50px 10px 10px 50px;
 	color: gray;
     font-size: 42px;
 }
@@ -28,7 +28,7 @@
 
 /*  Right Side Styles  */
 .right-side {
-	padding-top: 25px;
+	padding-top: 40px;
 }
 
 .right-side > .main-right-title {
@@ -41,6 +41,6 @@
 }
 
 .right-side img {
-    height: 450px;
-    width: 575px;
+    height: 480px;
+    width: 700px;
 }

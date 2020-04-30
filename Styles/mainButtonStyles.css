@@ -1,0 +1,19 @@
+/*  Main Section Button Styles  */
+.btns > .sign-up-btn{
+	height: 50px;
+    width: 250px;
+    background-color: #20b149;
+    font-size: 25px;
+    border: none;
+    border-radius: 2px;
+}
+
+.btns > .learn-more-btn {
+	height: 52px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    border: none;
+    border-radius: 2px;
+}

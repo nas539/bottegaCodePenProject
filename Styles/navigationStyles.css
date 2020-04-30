@@ -1,8 +1,8 @@
 /*  General Navigation Styles  */
 .navigation {
-	display: grid;
+    display: flex;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
 .navigation > .nav-btn {
