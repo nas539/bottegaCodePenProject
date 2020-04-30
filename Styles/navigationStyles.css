@@ -6,7 +6,9 @@
 }
 
 .navigation > .nav-btn {
-	text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
     color: white;
     font-size: 24px;
 }

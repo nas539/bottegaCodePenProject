@@ -1,6 +1,6 @@
 /*  For CodePen Section Styles  */
 .for-codePen-section {
-    height: 40px;
+    height: 50px;
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -14,10 +14,10 @@
     border: 1px solid lightgray;
     color: white;
     font-size: 20px;
-    font-weight: 300;
 }
 
-/*
+
 .for-codePen-section > .for-codePen-button b {
-   font-weight: 900;
-}*/
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
