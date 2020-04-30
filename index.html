@@ -8,7 +8,7 @@
 
     <!--  Font/Icon Links -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto+Mono&display=swap" rel="stylesheet">
 
     <!--  CSS Links  -->
@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="Styles/forCodePenStyles.css">
     <link rel="stylesheet" href="Styles/footerStyles.css">
     <link rel="stylesheet" href="Styles/mainButtonStyles.css">
+
+    <!--    Links to Scripts  -->
+    <script type="text/javascript" src="Scripts/dropDown.js"></script>
 
     <title> CodePenProject </title>
 
@@ -46,7 +49,14 @@
         </div>
 
         <div class="right-column">
-            <button type="button" class="header-btn">Create <i class="fas fa-chevron-down"></i></button>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="drop-btn">Create <i class="fas fa-chevron-down"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Start Coding</a>
+                    <a href="#">Learn to Code</a>
+                    <a href="#">Make you first</a>
+                </div>
+            </div>
             <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
             <button type="button" class="head-btn">Log In</button>
             <button type="button" class="head-btn">Sign Up</button>
@@ -60,8 +70,8 @@
                 <p>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
             </div>
             <div class="btns">
-            <button type="button" class="sign-up-btn">Sign Up for Free</button>
-            <button type="button" class="learn-more-btn">Learn More</button>
+                <button type="button" class="sign-up-btn">Sign Up for Free</button>
+                <button type="button" class="learn-more-btn">Learn More</button>
             </div>
 
         </div>
@@ -94,3 +104,28 @@
 </body>
 
 </html>
+<!--
+<script>
+    When the user clicks on the button,
+    toggle between hiding and showing the dropdown content * /
+
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+
+</script>
+-->
